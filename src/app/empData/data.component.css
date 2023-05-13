@@ -1,0 +1,68 @@
+#emp-Block {
+  width: 100%;
+  height: auto;
+}
+#emp-Block article {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#emp-Block article h1 {
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #828181;
+}
+table {
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: rgb(65, 65, 65);
+}
+
+thead {
+  /* background-color: rgb(74, 0, 139); */
+  background-color: rgb(56, 56, 56);
+  /* color: white; */
+  color: rgb(254, 145, 106);
+  padding: 10px;
+}
+th {
+  padding: 10px;
+  border: 1px solid white;
+}
+tr,
+td,
+thead,
+tbody {
+  border: 1px solid rgb(219,83,33);
+  padding: 10px;
+  text-align: center;
+}
+
+/* table {
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+tr,
+td,
+thead,
+tbody {
+  border: 1px solid darkblue;
+  padding: 10px;
+  text-align: center;
+} */

@@ -1,0 +1,31 @@
+<section id="emp-Block">
+  <article>
+    <h1>Employee Details</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>DOB</th>
+          <th>Designation</th>
+          <th>Salary</th>
+          <th>Experience</th>
+          <th>Education</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let emp of employees">
+        <tr>
+          <td>{{ emp.eId }}</td>
+          <td>{{ emp.eName | uppercase }}</td>
+          <td>{{ emp.eGender }}</td>
+          <td>{{ emp.eDOB }}</td>
+          <td>{{ emp.eDesignation }}</td>
+          <td>{{ emp.eSalary | currency :"INR" }}</td>
+          <td>{{ emp.eExp }}</td>
+          <td>{{ emp.eEdu }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+</section>

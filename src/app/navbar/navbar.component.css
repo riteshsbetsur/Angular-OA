@@ -1,0 +1,26 @@
+#nav-Block{
+  width: 100%;
+  height: 70px;
+  /* background-color: rgb(72, 10, 142); */
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+#nav-Block article{
+  width: 80%;
+  height: 70px;
+  /* background-color: rgb(234, 255, 0); */
+  margin: 0 auto;
+}
+#nav-Block article ul{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: space-between;
+ }
+#nav-Block article ul li{
+  list-style:none;
+ }
+#advanced-logo{
+  width: auto;
+  height: 60px;
+}
